@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img-icon{
+    margin-left: 90%;
+    margin-top: 10%;
+}
+.title{
+    margin-left: 35%;
+    font-size: 20px;
+}
+.bordes{
+    background-color:rgb(205, 71, 23);
+}
+a, li,ul{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+.nav-project{
+    background-color: azure;
+}
+.li-style{
+    color: black;
+}
+.img-style{
+
+    width: 100%;
+    height: 50%;;
+}
+#bottleup,#ayni,#wikilol,#mdlinks{
+    height: 60%;
+    width: 100%;
+    margin:0px;
+}
+#bottleup{
+    background-color:rgb(205, 71, 23);
+}
+
+#wikilol{
+    background-color:white;
+}
+#ayni{
+    background-color:rgb(205, 71, 23);
+}
+#mdlinks{
+    background-color:white;
+}
+.parrafo{
+    font-size: 10px;
+    margin-left: 10px;
+
+}
+
