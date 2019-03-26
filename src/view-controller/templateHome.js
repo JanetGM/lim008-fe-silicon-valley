@@ -38,7 +38,7 @@ export const homePage = () => {
 
           En Ayni podras publicar contenido de interés para la comunidad, podrás conocer los proyectos de emprendimiento con valor social más relevantes de nuestro país.</p>
         </div>
-        <div></div>
+        <div><img src="img/mobile/mdlinks.PNG" class="img-style"></div>
         <div id ="mdlinks">
           <label>Mdlinks</label>
           <p class="parrafo">Esta es una librería desarrollada con Javascript y node.js , la cual nos permite visualizar el nombre,la dirección de los links de un archivo de formato MD. (Markdown)</p>
