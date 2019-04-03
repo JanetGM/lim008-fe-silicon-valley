@@ -1,0 +1,65 @@
+.fondo-header{
+    margin-top:2%;
+    color:black;
+    font-family: 'Oswald', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.imagen{
+    margin-top:30%;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+   
+}
+.p-style {
+ margin-top: 40px;
+ margin-right:20px;
+ font-family: 'Oswald', sans-serif;
+
+
+}
+p{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.btn-ancle{
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 30px;
+    background-color:black;
+}
+.fondo-welcome{
+    background-image: url('https://image.freepik.com/vector-gratis/resumen-geometrico-hexagonal-medico_1017-15002.jpg')
+}
+.size-img{
+width: 500px;
+height: 300px;;
+}
+.size-img2{
+    width: 200px;
+    height: 300px;;
+    }
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  .size-img-rounded{
+      width: 290px;
+      height: 300px;
+      border-radius:180px;
+  }
+  .wid{
+    margin-top: 30px;
+  }
+  .fondo{
+      background-color:black;
+      color: white;
+  }
+  .section-proyect{
+      margin-bottom: 20%;
+  }
+  .footerB{
+      background-color: black;
+      color:white;
+  }
