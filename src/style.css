@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Concert+One|Fredoka+One|Jua');
+@import url('https://fonts.googleapis.com/css?family=Muli|Open+Sans+Condensed:300');
 .fondo-header{
     margin-top:2%;
     color:black;
@@ -17,12 +18,13 @@
  margin-top: 40px;
  margin-right:20px;
  font-family: 'Oswald', sans-serif;
-
-
+  
 }
 p{
     margin-top: 30px;
     margin-bottom: 40px;
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
 }
 .btn-ancle{
     border-radius: 5px;
@@ -34,21 +36,37 @@ p{
     background-image: url('https://image.freepik.com/vector-gratis/resumen-geometrico-hexagonal-medico_1017-15002.jpg')
 }
 .size-img{
+
 width: 500px;
-height: 300px;;
+height: 300px;
+
 }
+
 .size-img2{
     width: 200px;
     height: 300px;;
     }
-.fakeimg {
-    height: 200px;
-    background: #aaa;
+.ico-img {
+    margin-left:20%;
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
   }
   .size-img-rounded{
       width: 290px;
       height: 300px;
       border-radius:180px;
+      margin-top:30px;
+  }
+
+  .card-img{
+      display:inline-block;
+      border-color:  rgb(218, 218, 226);
+      border-style: solid;
+      width: 10%;
+      height: 10%;
+      margin-bottom: 5%;
+      margin-left: 2%;
   }
   .wid{
     margin-top: 30px;
@@ -67,7 +85,7 @@ height: 300px;;
   /*primera vista*/
  .portada{
    
-    height: 900px;
+    height: 1000px;
     background-size: 2500px;
     font-family: 'Rubik', sans-serif;
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
@@ -78,8 +96,7 @@ height: 300px;;
     
 }
 .name{
- margin-top:150px;
- margin-left:700px;
+ margin-top:10px;
  font-family: 'Fredoka One', cursive;
 
 
@@ -97,7 +114,7 @@ height: 300px;;
 .about-me{
     margin-top:100px;
     padding:40px;
-    height: 300px;
+    height: 200px;
     width: 1000px;
     
     background-color:  rgba(255, 170, 32, 0.65);
@@ -106,7 +123,19 @@ height: 300px;;
     color: black;
     border-radius: 20px;
 }
+.left{
+   background-color: black;
+color: white;
+font-size: 20px;
+font-family: 'Muli', sans-serif;
+   
+}
 
+.card-project{
+    height: 60%;
+    width: 40%;
+    font-size: 18px;
+}
 /*EFFECTS*/
 @-webkit-keyframes example {
     from {background-color: red;}
@@ -149,3 +178,11 @@ height: 300px;;
                 
             }
 
+/*MMEDIAS QUERIES*/
+@media (min-width: 768px) {
+    .datalover {
+      width: 100%;
+      float: right;
+      }
+      
+    }
