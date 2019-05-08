@@ -101,6 +101,12 @@ height: 300px;
 
 
 }
+.font{
+    font-family: 'Concert One', cursive;
+}
+.font-text{
+    font-family: 'Dosis', sans-serif;
+}
 .portadaLabel{
 
     margin-left: 790px;
@@ -124,11 +130,12 @@ height: 300px;
     border-radius: 20px;
 }
 .left{
-   background-color: black;
-color: white;
-font-size: 20px;
-font-family: 'Muli', sans-serif;
-   
+ background-color: black;
+ color: white;
+ font-size: 20px;
+ font-family: 'Muli', sans-serif;
+ height: 1400px;
+ width: 500px;
 }
 
 .card-project{
